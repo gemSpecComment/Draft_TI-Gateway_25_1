@@ -1,9 +1,9 @@
 name: Industriekommentare
 description: "Kommentare für Änderungsvoschläge der Industrie"
-title: "[Änderungsvorschlag]: "
+title: "Draft_TI-Gateway_25_1: "
 labels: ["Offen"]
-projects: ["gematik-poc/1"]
-assignees: ["mwatzek"]
+projects: [""]
+assignees: [""]
 body:
   - type: markdown
     attributes:
@@ -52,6 +52,7 @@ body:
   - type: input
     id: link
     attributes:
+      value: "https://gemspec.gematik.de/prereleases/Draft_TI-Gateway_25_1/"
       label: "Link"
       description: "Link zu Dokument/Kapitel/AFO"
     validations:
